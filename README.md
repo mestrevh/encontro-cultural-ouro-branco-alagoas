@@ -11,3 +11,13 @@ Esse é um evento que busca unir culturas como Hip Hop, Free Step e entre outras
 ## Automação
 
 Buscar sempre utilizar os agentes para automatizar o código para análise no futuro
+
+## FRONT-END
+
+* Execução:
+
+1. Execute o comando abaixo
+```
+bash
+cd frontend &&
+```
