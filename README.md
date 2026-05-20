@@ -14,10 +14,13 @@ Buscar sempre utilizar os agentes para automatizar o código para análise no fu
 
 ## FRONT-END
 
-* Execução:
+* Execução em ambiente de desenvolvimento:
 
 1. Execute o comando abaixo
+   
 ```
 bash
-cd frontend &&
+cd frontend
+npm install
+npm run dev
 ```

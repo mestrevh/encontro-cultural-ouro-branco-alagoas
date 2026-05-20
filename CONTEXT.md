@@ -1,5 +1,12 @@
 # Project Overview
-This project is a website for the "Encontro Cultural OB AL" (Ouro Branco - Alagoas), an event celebrating various cultural expressions like Hip Hop and Free Step in the Alagoan backlands. The project is built using Next.js, React, and TypeScript.
+
+## Comunication rule
+
+Talk and write in Portuguese Brasil.
+
+## Descrição
+
+Esse projeto é um website para o Encontro Cultural OB AL (Ouro Branco - Alagoas), um evento que busca conexão entre expressões culturais como Hip Hop e Free Step no sertão alagoano. O projeto está usando Next.js, React, e TypeScript. 
 
 ## Technology Stack
 - **Framework:** Next.js (App Router)
@@ -8,6 +15,7 @@ This project is a website for the "Encontro Cultural OB AL" (Ouro Branco - Alago
 - **Package Manager:** npm
 
 ## Building and Running
+O projeto está no diretório `frontend`. Todos os comandos abaixo são responsáveis pela execução.
 The project is located in the `/frontend` directory. All commands should be executed from there.
 
 - **Development:** `npm run dev`
@@ -16,8 +24,7 @@ The project is located in the `/frontend` directory. All commands should be exec
 - **Linting:** `npm run lint`
 
 ## Development Conventions
-- Use the `/frontend/app` directory for pages and layouts.
-- Use the `/frontend/components` directory for reusable components.
-- Adhere to the existing TypeScript configuration in `tsconfig.json`.
-- Utilize Tailwind CSS for styling as established in the project.
-- Automate tasks whenever possible using the available Gemini CLI agents.
+- Use o diretório `/frontend/app` para páginas e layouts.
+- Use o diretório `/frontend/components` para reuso de componentes.
+- Configuração em TypeScript em `tsconfig.json`.
+- Utilize Tailwind CSS para estilo desse projeto.
