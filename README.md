@@ -4,7 +4,7 @@ Esse é um evento que busca unir culturas como Hip Hop, Free Step e entre outras
 
 ## Desafios
 
-1. Criar o site utilizando apenas a tecnologia `Gemini CLI`
+1. Criar o site utilizando apenas a tecnologia `Antigravity`
 2. O site deve ser multiplataforma (responsivo)
 3. Deve conter a história do evento, informações do evento atual e o cronograma
 
