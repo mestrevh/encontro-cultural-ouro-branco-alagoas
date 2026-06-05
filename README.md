@@ -17,9 +17,15 @@ Esse é um evento que busca unir culturas como Hip Hop, Free Step e entre outras
 ### Automação
 
 Buscar sempre utilizar os agentes para automatizar o código para análise no futuro.
-Melhorando os prompts e construção do projeto com a LLM `Gemini 3.1 Pro`
-Agente sendo utilizado `Antigravity cli`
+
+Melhorando os prompts e construção do projeto com a LLM `Gemini 3.1 Pro`.
+
+Agente sendo utilizado `Antigravity cli`.
 
 ### Dia 04 de Junho
 
 Início: 20:00 horas.
+
+1. Enviado o primeiro prompt para inicialização do projeto: 21:30.
+2. Melhorando a resposta no `Gemini 3.1 Pro`.
+3. 
