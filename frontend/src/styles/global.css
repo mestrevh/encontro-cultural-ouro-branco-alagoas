@@ -4,10 +4,30 @@
   --font-sans: "Inter", "Outfit", sans-serif;
   --color-primary-500: #3b82f6;
   --color-primary-600: #2563eb;
+  
+  --animate-fade-in: fade-in 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-slide-up: slide-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  --animate-float: float 6s ease-in-out infinite;
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
 }
 
 body {
   font-family: var(--font-sans);
-  background-color: #0f172a; /* Tema escuro por padrão */
+  background-color: #0f172a;
   color: #f8fafc;
 }
