@@ -14,3 +14,4 @@
    - `test:` (adição/modificação de testes)
    - `chore:` (atualização de tarefas de build, pacotes, etc)
 4. **Segurança:** Nunca utilizar `git push --force` ou `git push -f` em branches compartilhadas. Utilizar `push --force-with-lease` se estritamente necessário em feature branches privadas.
+5. Não de `git init` em nenhum diretório, utilize o diretório principal para os commits e .
