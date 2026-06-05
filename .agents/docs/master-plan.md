@@ -1,5 +1,5 @@
 # Planejamento do Ciclo de Prompts (6 Passos)
-1. **Prompt 1 (Plan 01):** Inicializar projeto Astro (create-astro), configurar Vitest, TailwindCSS, tipografia e limpar repositório base. Iniciar develop.
+1. **Prompt 1 (Plan 01):** Inicializar projeto em `frontend/` Astro (create-astro), configurar Vitest, TailwindCSS, tipografia e limpar repositório base. Iniciar develop.
 2. **Prompt 2 (Plan 02):** Implementar e testar o Design System (Cores, Fontes, Botões Globais) via TDD.
 3. **Prompt 3 (Plan 03):** TDD da arquitetura base (Header, Navigation Mobile, Footer, Layout Wrapper).
 4. **Prompt 4 (Plan 04):** TDD das páginas de conteúdo. Consumo de dados locais ou API, focando na performance de renderização estática.
