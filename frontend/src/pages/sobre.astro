@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { sobre } from '../data/mock';
+---
+
+<Layout title="Sobre o Evento | Ouro Branco">
+  <main class="container mx-auto px-4 py-16 flex-1">
+    <div class="max-w-3xl mx-auto">
+      <h1 class="text-4xl md:text-5xl font-bold mb-8 text-white text-center md:text-left">Sobre o Evento</h1>
+      
+      <article class="bg-slate-800/50 p-8 md:p-12 rounded-3xl border border-slate-700/50 shadow-2xl backdrop-blur-md relative overflow-hidden">
+        <!-- Decoration element -->
+        <div class="absolute top-0 right-0 -mr-16 -mt-16 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        
+        <div class="flex items-center gap-4 mb-8">
+          <span class="px-4 py-2 bg-blue-600/20 text-blue-400 rounded-full text-sm font-bold tracking-wider border border-blue-500/30">
+            {sobre.edicao}
+          </span>
+        </div>
+        
+        <p class="text-xl md:text-2xl text-slate-300 leading-relaxed font-light">
+          {sobre.historia}
+        </p>
+        
+        <div class="mt-12 pt-8 border-t border-slate-700/50 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div>
+            <div class="text-3xl font-bold text-white mb-1">+50</div>
+            <div class="text-sm text-slate-400">Atrações</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-white mb-1">3</div>
+            <div class="text-sm text-slate-400">Dias de Festa</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-white mb-1">2</div>
+            <div class="text-sm text-slate-400">Palcos</div>
+          </div>
+          <div>
+            <div class="text-3xl font-bold text-white mb-1">100%</div>
+            <div class="text-sm text-slate-400">Cultura</div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </main>
+</Layout>
