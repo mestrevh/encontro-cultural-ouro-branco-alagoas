@@ -30,4 +30,29 @@ import Button from '../ui/Button.astro';
       </svg>
     </button>
   </div>
+
+  <!-- Mobile Nav Menu (hidden by default) -->
+  <div id="mobile-menu" class="hidden md:hidden border-t border-slate-800 bg-slate-900/95 backdrop-blur-xl">
+    <nav class="flex flex-col p-4 space-y-2">
+      <a href="/programacao" class="text-base font-medium text-slate-300 hover:text-white transition-colors p-4 min-h-[44px] flex items-center rounded-lg hover:bg-slate-800/50">Programação</a>
+      <a href="/artistas" class="text-base font-medium text-slate-300 hover:text-white transition-colors p-4 min-h-[44px] flex items-center rounded-lg hover:bg-slate-800/50">Artistas</a>
+      <a href="/sobre" class="text-base font-medium text-slate-300 hover:text-white transition-colors p-4 min-h-[44px] flex items-center rounded-lg hover:bg-slate-800/50">Sobre</a>
+      <div class="pt-4 pb-2">
+        <Button variant="primary" class="w-full justify-center min-h-[44px]">Comprar Ingressos</Button>
+      </div>
+    </nav>
+  </div>
 </header>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  
+  if (btn && menu) {
+    btn.addEventListener('click', () => {
+      const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!isExpanded));
+      menu.classList.toggle('hidden');
+    });
+  }
+</script>

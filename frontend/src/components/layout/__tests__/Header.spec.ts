@@ -17,5 +17,10 @@ describe('Header Component', () => {
     expect(result).toContain('<button');
     expect(result).toContain('aria-label="Menu"');
     expect(result).toContain('aria-expanded="false"');
+    
+    // Checa se o menu mobile oculto foi renderizado (Subplan 1)
+    expect(result).toContain('id="mobile-menu"');
+    // Checa se as opções mobile têm áreas de toque mínimas de 44px (ex: p-4 ou min-h-[44px])
+    expect(result).toMatch(/href="\/programacao".*(p-4|min-h-\[44px\]|py-3)/);
   });
 });

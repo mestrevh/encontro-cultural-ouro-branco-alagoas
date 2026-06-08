@@ -19,5 +19,8 @@ describe('Página de Artistas', () => {
     // Checa se imagens/estruturas semânticas foram criadas
     expect(result).toContain('<img');
     expect(result).toContain('<article');
+    
+    // TDD Subplan 4: Typography and touch sizing on mobile
+    expect(result).toMatch(/text-xl.*md:text-2xl/);
   });
 });

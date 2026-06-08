@@ -15,5 +15,9 @@ describe('Página Sobre', () => {
     
     // Checa a edição
     expect(result).toContain('15ª Edição');
+    
+    // TDD Subplan 5: Spacing and typography flow
+    expect(result).toMatch(/p-6.*md:p-12/);
+    expect(result).toMatch(/text-base.*md:text-2xl|text-lg.*md:text-2xl/);
   });
 });

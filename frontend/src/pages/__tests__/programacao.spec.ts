@@ -15,5 +15,8 @@ describe('Página de Programação', () => {
     expect(result).toContain('Banda Raízes');
     expect(result).toContain('20:30');
     expect(result).toContain('Palco Principal');
+    
+    // TDD Subplan 3: Layout Timeline (flex-col no mobile)
+    expect(result).toMatch(/flex-col.*md:flex-row/);
   });
 });
