@@ -12,7 +12,8 @@
 	},
 	"kv_namespaces": [
 		{
-			"binding": "SESSION"
+			"binding": "SESSION",
+			"id": "0c6b102f4b764092a35af96fb890ac2e"
 		}
 	]
 }
