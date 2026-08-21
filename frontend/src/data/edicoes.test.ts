@@ -41,10 +41,10 @@ describe('Edicoes Culturais Data & Media Verification', () => {
       const fullPath = path.join(publicDir, relativePath);
       
       const fileExists = fs.existsSync(fullPath);
-      expect(fileExists, File not found:  (src: )).toBe(true);
+      expect(fileExists).toBe(true);
       
       const stat = fs.statSync(fullPath);
-      expect(stat.size, File empty: ).toBeGreaterThan(0);
+      expect(stat.size).toBeGreaterThan(0);
     }
   });
 
